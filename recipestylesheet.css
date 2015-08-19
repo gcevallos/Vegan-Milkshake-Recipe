@@ -1,0 +1,169 @@
+
+body{
+	background-color: #eeeeee;
+}
+
+.container{
+	height: 150px;
+	margin: 100px 220px 0 260px;
+}
+
+.container h1{
+	
+	font-family: 'Playfair Display', sans-serif;
+	height: 120px;
+	color: #333333;
+	text-align: center;
+	
+	font-size: 45px;
+	
+	display: inline-block;
+	float: left;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+h1:hover{
+	color: #75ff00;
+}
+
+.container span{
+	color: #75ff00;
+}
+
+.container p{
+	
+	border-left: 2px dashed #333333;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	text-transform: capitalize;
+	width: 33%;
+	margin-left: 40px;
+	margin-top: 10px;
+	text-align: left;
+	font-family: 'Quicksand', sans-serif;
+	padding-left: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#milkshake img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 90%;
+    -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.start{
+	border: 1px solid #e4e4e4;
+	border-radius: 15px;
+}
+
+.start img{
+	border-radius: 15px;
+}
+
+
+section{
+	float: right;
+	font-size: 1.2em ;
+	font-family: sans-serif;
+	position: relative;
+	bottom: 250px;
+	right: 160px;
+}
+
+.intro li{
+	display: block;
+	margin: 0;
+	padding: 25px;
+}
+
+.intro{
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	position: relative;
+}
+
+.intro #prep{
+	background-color: #75ff00;
+}
+
+.intro #total{
+	background-color: #c0c2ce;
+}
+
+.intro #yield{
+	background-color: #708090;
+}
+
+.intro span{
+	font-size: 40px;
+}
+
+#contentimages {
+	height: 569px;
+}
+
+#contentimages img{
+	position: relative;
+	top: 150px;
+	left: 65px;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	max-width: 30%;
+}
+
+#contentimage3{
+	position: relative;
+	
+	bottom: 348px;
+}
+
+.recipe{
+	position: relative;
+	top: 900px;
+	left: 160px;
+	display: inline;
+}
+
+
+
+.ingredients{
+	
+	font-family: Quicksand, sans-serif;
+	font-size: 30px;
+	width: 20%;
+	display:inline;
+	float: left;
+	margin-left: 60px
+}
+
+.instructions{
+
+	font-family: Quicksand, sans-serif;
+	font-size: 30px;
+	float: right;
+	width: 40%;
+	display: inline;
+	margin-right: 60px;
+
+}
+
+.ing li.linethrough {
+    text-decoration: line-through
+}
+
+.ing li:hover{
+	color: #9c9c9c;
+}
+
